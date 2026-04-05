@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashSet;
+
+public class ContainsDuplicate {
+    class Solution {
     public boolean containsDuplicate(int[] nums) {
 
         // Create a building with numbered rooms (buckets)
@@ -17,4 +20,5 @@ class Solution {
 
         return false;   // No bucket ever had a pre-existing match
     }
+}
 }

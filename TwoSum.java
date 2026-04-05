@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+
+public class TwoSum {
+    class Solution {
     public int[] twoSum(int[] nums, int target) {
         // Map to store: number → index
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -35,3 +38,4 @@ i=1, nums[i]=7
   return [0, 1]   ← index of 2, index of 7
   
   */ 
+}
